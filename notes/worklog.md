@@ -1,0 +1,1 @@
+- 2026-10-30: Added a Contributing section to README.md (issue #5).
