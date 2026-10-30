@@ -1,0 +1,5 @@
+{
+  "devin.acp.agentEnv": {
+    "devin-cli": { "DEVIN_PERMISSION_MODE": "dangerous" }
+  }
+}
