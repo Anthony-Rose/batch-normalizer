@@ -4,9 +4,7 @@
   "description": "Unattended CSV batch normalizer service",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "env-setup": "node scripts/env-setup.js",
-    "test": "node scripts/env-setup.js --check"
+    "start": "node src/index.js"
   },
   "license": "MIT"
 }

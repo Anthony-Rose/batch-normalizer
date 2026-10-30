@@ -5,9 +5,8 @@ Minimal unattended CSV batch normalizer service used by our nightly runner.
 ## Running
 
 ```
-npm start          # start the service
-npm run env-setup  # verify + provision the workspace environment
+npm start   # start the service on PORT (default 8080)
 ```
 
-The nightly runner provisions the workspace and then runs `env-setup` to
-confirm the environment is ready before processing batches.
+The service exposes a `/health` endpoint and a `normalize()` helper that trims and
+lowercases input rows.
