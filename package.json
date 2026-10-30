@@ -1,0 +1,12 @@
+{
+  "name": "batch-normalizer",
+  "version": "1.2.0",
+  "description": "Unattended CSV batch normalizer service",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "env-setup": "node scripts/env-setup.js",
+    "test": "node scripts/env-setup.js --check"
+  },
+  "license": "MIT"
+}
